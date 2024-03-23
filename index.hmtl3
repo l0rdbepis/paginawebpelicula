@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas de Películas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CajaDCarta</h1>
+        <nav>
+            <ul> 
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="review">
+            <img src="https://images-2.rakuten.tv/storage/snapshot/shot/2a0bf158-dbd4-4ba5-a5a7-9fd90db8ed21-snapshot-1590665178.jpeg" width="450" alt="Película 1">
+            <h2>Star Wars Episodio III</h2>
+            <p>Lorem ipsum, dolor sit amet.</p>
+            <p>Calificación: <span class="rating">5/5</span></p>
+        </section>
+
+        <section class="review">
+            <img src="https://pablobedrossian.files.wordpress.com/2023/07/el-padrino-ii-05.jpg?w=1280&h=720&crop=1" width="300" length="200" alt="Película 2">
+            <h2>El Padrino Parte II</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Calificación: <span class="rating">4.5/5</span></p>
+        </section>
+
+        <section class="review">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" width="300" length="200" alt="Película 2">
+            <h2>Interestelar</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Calificación: <span class="rating">5/5</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Reseñas de Películas</p>
+    </footer>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.review {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.review h2 {
+    margin-top: 0;
+}
+
+.rating {
+    color: #FFD700; /* Color dorado para la calificación */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
